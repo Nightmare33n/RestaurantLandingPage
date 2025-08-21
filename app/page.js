@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import MenuSection from './components/MenuSection'
 import ExperienceSection from './components/ExperienceSection'
 import ReservationSection from './components/ReservationSection'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <MenuSection />
       <ExperienceSection />
       <ReservationSection />
+      <Footer />
     </div>
   );
 }

@@ -100,7 +100,7 @@ export default function Hero() {
           {/* Image */}
           <div className="relative h-full">
             <Image
-              src="/images/rstaurant.avif"
+              src="/images/heroimage.jpg"
               alt="Restaurante elegante"
               fill
               className="object-cover"
@@ -112,7 +112,7 @@ export default function Hero() {
             {/* Features overlay on image */}
             <div className={`absolute bottom-20 left-12 right-12 transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <div className="grid grid-cols-1 gap-6 text-white">
-                <div className="bg-black/60 backdrop-blur-sm rounded-lg p-6 group hover:bg-black/70 transition-all duration-300">
+                <div className="bg-black/80 backdrop-blur-sm rounded-lg p-6 group hover:bg-black/85 transition-all duration-300">
                   <div className="flex items-center mb-3">
                     <div className="bg-amber-500/20 rounded-full w-12 h-12 flex items-center justify-center mr-4 group-hover:bg-amber-500/30 transition-colors duration-300">
                       <svg className="h-6 w-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -126,7 +126,7 @@ export default function Hero() {
                   </div>
                 </div>
                 
-                <div className="bg-black/60 backdrop-blur-sm rounded-lg p-6 group hover:bg-black/70 transition-all duration-300">
+                <div className="bg-black/80 backdrop-blur-sm rounded-lg p-6 group hover:bg-black/85 transition-all duration-300">
                   <div className="flex items-center mb-3">
                     <div className="bg-amber-500/20 rounded-full w-12 h-12 flex items-center justify-center mr-4 group-hover:bg-amber-500/30 transition-colors duration-300">
                       <svg className="h-6 w-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
