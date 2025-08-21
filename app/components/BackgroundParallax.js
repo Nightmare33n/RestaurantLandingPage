@@ -18,14 +18,14 @@ export default function BackgroundParallax() {
   return (
     <div className="fixed inset-0 w-full h-full -z-10">
       <div 
-        className="absolute inset-0 w-full h-[120vh]"
+        className="absolute inset-0 w-full h-[130vh]"
         style={{
-          transform: `translateY(${scrollY * 0.5}px)`,
+          transform: `translateY(${scrollY * -0.1}px)`,
           willChange: 'transform'
         }}
       >
         <Image
-          src="/images/luxury-restaurant-texture.jpg"
+          src="/images/restaurant-background.jpg"
           alt="Luxury restaurant background"
           fill
           className="object-cover"
